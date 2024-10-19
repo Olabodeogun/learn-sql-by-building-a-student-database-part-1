@@ -31,3 +31,5 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 __vsc_prompt_cmd_original
 echo hello SQL
+psql --username=freecodecamp --dname=postgres
+psql --username=freecodecamp --dbname=postgres
